@@ -1,2 +1,3 @@
-FROM node:20-bookworm
-RUN npx -y playwright@1.45.3 install --with-deps chromium
+FROM mcr.microsoft.com/playwright:v1.45.2-jammy
+
+RUN apt-get update && apt-get install -y lsof
