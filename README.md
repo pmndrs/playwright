@@ -1,3 +1,3 @@
 ```sh
-$ docker pull ghcr.io/pmndrs/playwright:main
+$ docker pull ghcr.io/pmndrs/playwright:drei
 ```
